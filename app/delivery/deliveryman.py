@@ -107,6 +107,7 @@ class Deliveryman(arcade.View):
     def on_update(self, delta_time: float):
 
         if self.collided:
+            arcade.stop_sound(self.current_background_music)
             self.collision_timer += delta_time
             if self.collision_timer > 5.0:
                 arcade.close_window()
