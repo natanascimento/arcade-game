@@ -6,7 +6,7 @@ class Settings:
     # CONSTANTS
     SCREEN_WIDTH = 400
     SCREEN_HEIGHT = 300
-    SCREEN_TITLE = "Deliveryman Life's"
+    SCREEN_TITLE = "Deliveryman's Life"
     RADIUS = 150
     SCALING = 2.0
 
@@ -17,12 +17,17 @@ class Settings:
     # IMAGES
     IMAGES_PATH = join(ASSETS_PATH, "images")
 
+    INSTRUCTION_IMAGE = join(IMAGES_PATH, "instructionview.png")
+
     VEHICLES_PATH = join(IMAGES_PATH, "vehicles")
     DELIVERYMAN_IMAGE = join(VEHICLES_PATH, "entregador.png")
     CAR_IMAGE = join(VEHICLES_PATH, "ferrari.png")
 
     HIGHWAY_PATH = join(IMAGES_PATH, "highway")
     HIGHWAY_IMAGE = join(HIGHWAY_PATH, "highway.png")
+
+    GAMEOVER_PATH = join(IMAGES_PATH, "game-over")
+    GAMEOVER_IMAGE = join(GAMEOVER_PATH, "game-over.png")
 
     # SOUNDS
     SOUNDS_PATH = join(ASSETS_PATH, "sounds")

@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "python-base-project"
+name = "deliveryman-arcade-game"
 version = "0.1.0"
-description = "Base structure for python project"
+description = "Arcade game based on deliveryman's life"
 authors = ["Natan Nascimento <natanascimentom@outlook.com>"]
 packages = [
     { include = "app" }
@@ -14,6 +14,8 @@ start = "app:main"
 python = "^3.8"
 pytest = "^7.1.2"
 pytest-cov = "^3.0.0"
+arcade = "^2.6.15"
+pyinstaller = "^5.1"
 
 [tool.poetry.dev-dependencies]
 
