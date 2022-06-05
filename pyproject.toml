@@ -11,9 +11,11 @@ packages = [
 start = "app:main"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "3.8"
 pytest = "^7.1.2"
 pytest-cov = "^3.0.0"
+arcade = "^2.6.15"
+pyinstaller = "^5.1"
 
 [tool.poetry.dev-dependencies]
 
